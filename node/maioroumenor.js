@@ -6,6 +6,7 @@ const pergunta = readline.createInterface({
 });
 
 pergunta.question("Qual sua idade? ", (idade) => {
+    
     if(idade < 16) {
         console.log("Não pode votar")
     }

@@ -12,6 +12,5 @@ function boasVindas(nome) {
 pergunta.question("Digite seu nome: ", (nome) => {
 
     boasVindas(nome);
-
     pergunta.close();
 });

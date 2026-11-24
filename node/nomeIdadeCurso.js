@@ -11,6 +11,7 @@ pergunta.question("Qual seu nome? ", (nome) => {
         pergunta.question("Qual curso você faz? ", (curso) => {
 
             console.log("Nome: ", nome, "\nIdade: ", idade, "\nEstá cursando: ", curso)
+            
             pergunta.close();
         })
     })
