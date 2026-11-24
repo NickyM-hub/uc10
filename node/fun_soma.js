@@ -14,7 +14,7 @@ pergunta.question("Digite o primeiro número: ", (valor1) => {
 
         let resultado = somar(Number(valor1), Number(valor2));
 
-        console.log("Resultado da soma:", resultado);
+        console.log(`Resultado da soma: ${resultado}`)
         pergunta.close();
     });
 });

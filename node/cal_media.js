@@ -1,4 +1,3 @@
-
 const readline = require('readline');
 
 const pergunta = readline.createInterface({
@@ -14,7 +13,7 @@ pergunta.question("Digite a primeira nota: ", (valor1) => {
     pergunta.question("Digite a segunda nota: ", (valor2) => {
 
         let media = calcularMedia(Number(valor1), Number(valor2));
-        console.log("Média:", media);
+        console.log(`Média: ${media}`);
 
         if (media >= 7) {
             console.log("Aprovado");
