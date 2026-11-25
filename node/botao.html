@@ -11,10 +11,14 @@
 
     <script>
         const botao = document.getElementById("btn")
-        const mensagem = document.getElementById("mensagem")
+        const paragrafo = document.getElementById("mensagem")
+
+        const mensagens = ["Ligado", "Desligado"]
+        let contador = 0
 
         botao.addEventListener("click", function () {
-            mensagem.textContent = "Evento executado com sucesso!";
+            paragrafo.textContent = mensagens[contador];
+            contador = [contador + 1] % 2;
         })
     </script>
 </body>
